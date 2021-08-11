@@ -13,4 +13,12 @@ public class GameManager : MonoBehaviour
             flowchartObject.SendFungusMessage("按下空白鍵");
         }
     }
+
+    /// <summary>
+    /// Fungus 點擊呼叫
+    /// </summary>
+    public void MethodClickCall()
+    {
+        print("我被 Fungus 的點擊物件呼叫~");
+    }
 }
